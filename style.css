@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: gray;
+}
+.time{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+    font-size: 1.9em;
+    font-family: 'Press Start 2P', cursive;
+}
+.time2{
+    margin-top: 30px;
+    display: flex;
+    justify-content:center;
+    font-size: 1.9em;
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+@media screen and (max-width:767px){
+    h1{
+       font-size: 1.4em;
+       display: flex;
+       justify-content: center;
+       color: red;
+    }
+    .time2{
+        font-size: 1.5em;
+    }
+}
